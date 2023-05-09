@@ -2,8 +2,11 @@
     padding: 20px;
 }
 div{
-    background: rgba(230, 178, 178, 0.986);
+    background: #c78299;
 }
-h1,h3{
+h2,h3{
     display: inline;
+}
+h2{
+    font-weight: bold;
 }

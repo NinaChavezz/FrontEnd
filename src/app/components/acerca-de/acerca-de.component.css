@@ -1,35 +1,52 @@
-.row{
+.row {
     padding: 20px;
 }
 
-div{
-    background-color:  rgba(230, 178, 178, 0.986);
+div {
+    background-color: #c78299;
     text-align: center;
 }
 
-@media (min-width: 576px){
-    #fotodeperfil{
+@media (min-width: 576px) {
+    #fotodeperfil {
         position: absolute;
-        width: 15%;
+        width: 20%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 3%;
         top: 400px;
     }
+
+    .nombre {
+        padding-top: 50px;
+    }
 }
 
-@media (max-width: 575px){
-     #fotodeperfil{
+@media (max-width: 575px) {
+    #fotodeperfil {
         position: absolute;
         width: 30%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
-        left: 30%;
+        left: 35%;
         top: 550px;
+    }
+
+    .nombre {
+        padding-top: 50px;
     }
 }
 
-#nombre{
+#nombre {
     font-weight: bold;
     margin-top: 30%;
+    font-size: 1.2rem;
+}
+
+p{
+    font-style: italic;
+}
+
+h2{
+    font-weight: bold
 }
