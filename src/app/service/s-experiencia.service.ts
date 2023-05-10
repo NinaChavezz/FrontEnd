@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment.development';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = environment.URL + 'explab/';
+  expURL = 'https://backend-cy5t.onrender.com/explab/';
 
   constructor(private httpClient: HttpClient) { }
 

@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment.development';
   providedIn: 'root'
 })
 export class EducacionService {
-  eduURL = environment.URL + 'educacion/';
+  eduURL = 'https://backend-cy5t.onrender.com/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 

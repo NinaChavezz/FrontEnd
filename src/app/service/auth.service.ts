@@ -12,7 +12,7 @@ import { environment } from 'src/environments/environment.development';
 export class AuthService {
 
 
-  authURL = environment.URL + 'auth/';
+  authURL = 'https://backend-cy5t.onrender.com/auth/';
 
   constructor(private httpCliente: HttpClient) { }
 

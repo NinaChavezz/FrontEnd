@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment.development';
   providedIn: 'root'
 })
 export class SkillService {
-  skillURL = environment.URL + 'skill/';
+  skillURL = 'https://backend-cy5t.onrender.com/skill/';
 
   constructor(private httpClient: HttpClient) { }
 
