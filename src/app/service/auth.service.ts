@@ -12,7 +12,7 @@ import { JwtDto } from '../model/jwt-dto';
 export class AuthService {
 
 
-  authURL = 'https://backend-cy5t.onrender.com/auth/';
+  authURL = 'https://backend-production-d098.up.railway.app/auth/';
 
   constructor(private httpCliente: HttpClient) { }
 

@@ -8,7 +8,7 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  skillURL = 'https://backend-cy5t.onrender.com/skill/';
+  skillURL = 'https://backend-production-d098.up.railway.app/skill/';
 
   constructor(private httpClient: HttpClient) { }
 
