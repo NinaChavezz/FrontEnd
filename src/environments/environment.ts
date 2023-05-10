@@ -1,6 +1,7 @@
-export const environment = {
-  production: false,
 
-  URL: 'https://localhost:8080/'
+export const environment = {
+  production: true,
+
+  URL: 'https://backend-cy5t.onrender.com'
 
 }
