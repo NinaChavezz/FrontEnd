@@ -27,7 +27,6 @@ import { NewSkillComponent } from './components/hys/new-skill.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 import { EditAcercadeComponent } from './components/acerca-de/edit-acercade.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
-import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 
 @NgModule({
