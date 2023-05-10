@@ -2,13 +2,15 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { persona } from '../model/persona.model';
+import { environment } from '../environments/environment.prod';
 
 
 @Injectable({
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'https://backend-production-d098.up.railway.app/personas/';
+  
+  URL = environment.URL + 'personas/';
   
   constructor(private httpClient: HttpClient) { }
 
@@ -20,16 +22,16 @@ export class PersonaService {
     return this.httpClient.get<persona>(this.URL + `detail/${id}`);
   }
 
-  public save(Persona: persona): Observable<any>{
+  /*public save(Persona: persona): Observable<any>{
     return this.httpClient.post<any>(this.URL + 'create', Persona);
-  }
+  }*/
 
   public update(id: number, Persona: persona): Observable<any>{
     return this.httpClient.put<any>(this.URL + `update/${id}`, Persona);
   }
 
-  public delete(id: number): Observable<any>{
+  /*public delete(id: number): Observable<any>{
     return this.httpClient.delete<any>(this.URL + `delete/${id}`);
-  }
+  }*/
 
 }

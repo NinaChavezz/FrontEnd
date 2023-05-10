@@ -10,7 +10,7 @@ import { PersonaService } from 'src/app/service/persona.service';
   styleUrls: ['./edit-acercade.component.css']
 })
 export class EditAcercadeComponent implements OnInit {
-  persona: persona = null;
+  persona: persona;
   
   constructor(private activatedRouter: ActivatedRoute, private personaService: PersonaService, private router: Router, public imageService: ImageService) {}
 
@@ -33,7 +33,7 @@ export class EditAcercadeComponent implements OnInit {
       data => {
         this.router.navigate(['']);
       }, err => {
-        alert("Error al modificar la educacion");
+        alert("Error al modificar");
         this.router.navigate(['']);
       }
     )

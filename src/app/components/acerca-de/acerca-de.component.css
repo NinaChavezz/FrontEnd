@@ -17,9 +17,6 @@ div {
         top: 400px;
     }
 
-    .nombre {
-        padding-top: 50px;
-    }
 }
 
 @media (max-width: 575px) {
@@ -32,9 +29,6 @@ div {
         top: 550px;
     }
 
-    .nombre {
-        padding-top: 50px;
-    }
 }
 
 #nombre {
